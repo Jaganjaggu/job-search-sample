@@ -1,0 +1,23 @@
+ .search-align-style {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+.search-title{
+    margin-bottom: 20px;
+}
+
+ .search-style-input input{
+    border: 1px solid salmon;
+     background-color: white;
+     outline: none;
+     /* border: none; */
+     padding: 20px 40px;
+     margin-left: 10px;
+     -webkit-box-shadow: -10px 18px 44px -19px rgba(0, 0, 0, 0.33);
+     -moz-box-shadow: -10px 18px 44px -19px rgba(0, 0, 0, 0.33);
+     box-shadow: -10px 18px 44px -19px rgba(0, 0, 0, 0.33);
+ }
+
+

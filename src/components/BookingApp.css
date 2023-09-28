@@ -1,0 +1,52 @@
+.job-title {
+    color: #4842de;
+    background-color: #f3f3ff;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 0 20px;
+}
+
+.main-title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main-para {
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(163, 163, 163);
+}
+
+@media (max-width:650px) {
+    .container {
+        height: 300px;
+    }
+
+    .main-title {
+        font-size: 10px;
+    }
+
+    .main-para {
+        text-align: center;
+    }
+}
